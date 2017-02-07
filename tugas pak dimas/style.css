@@ -1,0 +1,264 @@
+.body{
+  margin : 0 ;
+  font-family:'comic';
+
+}
+
+a:visited, a:link{
+ color:#ffffff;
+ text-decoration:none;
+}
+
+#header{
+ width: 100;
+ min-width:960px;
+ height:500px;
+ color:#000000;
+ background-color:#FF1000;
+
+ }
+
+.wrapper{
+ width:960px;
+ margin-left:auto;
+ margin-right:auto
+}
+
+#navbar{
+height:50px;
+}
+
+#logo{
+ width:240px;
+ height:42px;
+ font-size:25px;
+ padding-top:8px;
+ float:left;
+ font-family:'mingle','mingle 0.4';
+
+}
+
+.navigation{
+width:180px;
+height:18px;
+text-align:center;
+padding:13px 0 19px 0 ;
+font-size: 18px;
+float:left;
+} 
+
+.navigation:hover{background-color:#F6A7FA;}
+
+.raksasa{
+text-align: center;
+margin-top: 150px;
+color: #ffffff;
+
+}
+
+.wrapper-sosmed{
+text-align:center;
+}
+
+#beranda{
+width:100%;
+min-width:960px;
+background-color:#F7B5FA;
+Background-Image:url('');
+background-repeat: no-repeat;
+background-position: topcenter;
+line-height:1.4em;
+padding-top:50px;
+overflow:auto;
+padding-bottom:50px;
+}
+.judul{
+text-align:center;
+color:#ffffff;
+font-size: 25px;
+font-family:arial;
+}
+strong{
+color:#FF0000;
+background-color:#FFF000;
+padding:0 5px;
+}
+
+em{
+color#FFF000;
+background-color:#FFF000;
+padding:0 5px;
+}
+
+.foto{
+width:900px;
+height:300px;
+border: 1px solid #ffffff;
+font-size:12px;
+float: center; 
+background-color:#e6655e;
+margin:0 5px 0 5px;
+padding:50px;
+}
+.foto>img{
+border-radius:971px;
+width: 380px;
+height: 310px;
+background-color: #fff;
+float: left;
+}
+
+
+.wrapper-foto{
+width:1000px;
+margin:8 auto;
+overflow: auto;
+}
+
+.nama-foto{
+text-align:center;
+font-Family:'lobster','lobster 1.4';
+color:#ffffff;
+font-size: 32px;
+font-weight:100;
+margin-bottom:0;
+}
+.deskripsi{
+color:#ffffff;
+list-style:none;
+padding-left:0;
+line-height:15px
+margin: 5px 0 0;
+}
+
+#profil{
+color:#ffffff;
+width:100%;
+min-width: 960px;
+background-color: #11617B;
+background-image:url();
+background-repeat: no-repeat;
+background-position:top center;
+line-height:1.4em;
+padding-top:50px;
+padding-bottom:50px;
+overflow:auto;
+}
+
+#profil>.wrapper>  div{
+width:160px;
+height:600px;
+float:left;
+text-align:center;
+text-shadow: 10px 7px 20px 2px #ffffff;
+color:#000000;
+
+
+
+
+}
+
+#profil strong { background-color: #FFFF00;}
+#profil .cake {background-image:url('Crystalys.jpg');
+ text-shadow: 2px 2px 5px #FF00FB;} 
+#profil .fruit {background-image:url('logo dota.jpg');
+ text-shadow: 2px 2px 5px #FF00FB} 
+#profil .duren {background-image:url('feeder.jpg');
+ text-shadow: 2px 2px 5px #FF00FB} 
+#profil .ubi {background-image:url('aegis.jpg');
+ text-shadow: 2px 2px 5px #FF00FB} 
+#profil .brownies {background-image:url('WAWIN.jpg');
+ text-shadow: 2px 2px 5px #FF00FB} 
+#profil .sundae {background-image:url('sundae-cream2.jpg');
+ text-shadow: 2px 2px 5px #FF00FB} 
+
+#galeri{
+width:100%;
+min-width:960px;
+background-color:#2a80b9;
+background-image:url('');
+background-repeat:no-repeat;
+background-position:top center;
+line-height:1.4;
+padding-top:50px;
+padding-bottom:5px;
+overflow:auto;
+color:#ffffff;
+}
+
+#galeri>.wrapper>div{
+width:400px;
+height:300px;
+float:left;
+margin: 0 25px 10px 25px;
+text-align: center;
+color:#ffffff;
+}
+
+#galeri img{
+z-index:1;
+position:relative;
+bottom: 60px;
+}
+
+#galeri h3{
+z-index:2;
+position: relative ;
+background-color: rgba(0,0,0,.3);
+}
+
+#kontak{
+width:100%;
+min-width: 960px;
+background-color: #9b59b6;
+background-image:url('');
+background-repeat: no-repeat;
+background-position: top center;
+line-height: 1.4em;
+padding-top: 50px;
+padding-bottom: 50px;
+overflow: auto;
+color: #ecf0f1;
+}
+
+
+
+#legenda{
+width:200px;
+float:left;
+margin:0;
+padding-left:40px;
+font-size:12px;
+}
+
+.notel{
+font-size:16px;
+line-height:28px;
+padding-left:20px;
+list-style:square;
+float:left;
+bottom: 60px;
+}
+
+#footer {
+width: 100%;
+min-width: 962x;
+background-color: #000000;
+line-height: 1.4em;
+padding-top: 10px;
+padding-bottom: 10px;
+color: #334960;
+font-size: 12px;
+}
+
+#footer .wrapper {
+position: absolute;
+}
+
+.footer-graphic {
+position: relative;
+right: 875px;
+bottom: 30px;
+background-image:ur("footer-background2.jpg");
+
+}
